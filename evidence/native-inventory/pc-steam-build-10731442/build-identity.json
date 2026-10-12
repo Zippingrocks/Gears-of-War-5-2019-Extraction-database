@@ -1,0 +1,19 @@
+{
+  "schema": "gears5_build_identity_v1",
+  "store": "Steam",
+  "appId": "1097840",
+  "buildId": "10731442",
+  "installationSizeBytes": 120900502013,
+  "executable": {
+    "name": "Gears5.exe",
+    "fileVersion": "1.1.122.0",
+    "productVersion": "1.1.122.0"
+  },
+  "contentRoot": "GearGame/Content/B2",
+  "sourceNotes": [
+    "App, build, installation size, and depot identity were observed in the local Steam app manifest.",
+    "Executable versions were observed through Windows file-version metadata.",
+    "No proprietary source path or payload is stored in this report."
+  ]
+}
+

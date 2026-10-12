@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Gears 5 extraction repository metadata",
+  "type": "object",
+  "required": ["id", "title", "repositoryStatus", "engineFamily", "platforms"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "id": { "const": "gears-5" },
+    "title": { "const": "Gears 5" },
+    "repositoryStatus": { "enum": ["research", "experimental", "supported"] },
+    "engineFamily": { "const": "Unreal Engine 4" },
+    "platforms": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "displayName", "releaseYear", "status", "anchorMap"],
+        "properties": {
+          "id": { "const": "pc-steam-build-10731442" },
+          "displayName": { "type": "string" },
+          "releaseYear": { "const": 2019 },
+          "status": { "enum": ["research", "experimental", "supported"] },
+          "anchorMap": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
+

@@ -1,0 +1,588 @@
+{
+  "schema": "gears5_b2_inventory_v1",
+  "source": {
+    "label": "Steam app 1097840 build 10731442",
+    "root": "GearGame/Content/B2"
+  },
+  "b2Index": {
+    "name": "GearGame.b2index",
+    "sizeBytes": 62688696,
+    "header": {
+      "magic": "TCB2",
+      "u32_0x04_le": 6,
+      "headerWindowBytes": 32,
+      "headerWindowHex": "5443423206000000b88dbc030000000018a0bb020000000040bc900100000000"
+    },
+    "sha256": "52f005de1b0f9d04fb9f6e21c93779f021bf19f00a3df052699ac546a3d0ad1a"
+  },
+  "containers": {
+    "count": 141,
+    "totalBytes": 120453062656,
+    "entries": [
+      {
+        "name": "Bootcamp.b2container",
+        "sizeBytes": 211439616
+      },
+      {
+        "name": "Bootcamp_HiRes_G1.b2container",
+        "sizeBytes": 40095744
+      },
+      {
+        "name": "Bootcamp_HiRes_G2.b2container",
+        "sizeBytes": 155103232
+      },
+      {
+        "name": "Bootcamp_Localized_en.b2container",
+        "sizeBytes": 12861440
+      },
+      {
+        "name": "Bootcamp_Localized_ko-KR.b2container",
+        "sizeBytes": 13934592
+      },
+      {
+        "name": "Bootcamp_LoRes.b2container",
+        "sizeBytes": 1317990400
+      },
+      {
+        "name": "Bootcamp_Unlocalized.b2container",
+        "sizeBytes": 72269824
+      },
+      {
+        "name": "Customization_Banners.b2container",
+        "sizeBytes": 1331200
+      },
+      {
+        "name": "Customization_Banners_LoRes.b2container",
+        "sizeBytes": 262144
+      },
+      {
+        "name": "Customization_CharacterSkins.b2container",
+        "sizeBytes": 566992896
+      },
+      {
+        "name": "Customization_CharacterSkins_HiRes_G1.b2container",
+        "sizeBytes": 2624638976
+      },
+      {
+        "name": "Customization_CharacterSkins_HiRes_G2.b2container",
+        "sizeBytes": 7639109632
+      },
+      {
+        "name": "Customization_CharacterSkins_Localized_en.b2container",
+        "sizeBytes": 14487552
+      },
+      {
+        "name": "Customization_CharacterSkins_Localized_ko-KR.b2container",
+        "sizeBytes": 14761984
+      },
+      {
+        "name": "Customization_CharacterSkins_LoRes.b2container",
+        "sizeBytes": 4120412160
+      },
+      {
+        "name": "Customization_CharacterSkins_Unlocalized.b2container",
+        "sizeBytes": 331776
+      },
+      {
+        "name": "Customization_Full.b2container",
+        "sizeBytes": 19800064
+      },
+      {
+        "name": "Customization_Full_HiRes_G1.b2container",
+        "sizeBytes": 13697024
+      },
+      {
+        "name": "Customization_Full_HiRes_G2.b2container",
+        "sizeBytes": 40935424
+      },
+      {
+        "name": "Customization_Full_LoRes.b2container",
+        "sizeBytes": 29446144
+      },
+      {
+        "name": "Customization_Minimal.b2container",
+        "sizeBytes": 1412096000
+      },
+      {
+        "name": "Customization_Minimal_HiRes_G1.b2container",
+        "sizeBytes": 1515712512
+      },
+      {
+        "name": "Customization_Minimal_HiRes_G2.b2container",
+        "sizeBytes": 4059910144
+      },
+      {
+        "name": "Customization_Minimal_Localized_en.b2container",
+        "sizeBytes": 523292672
+      },
+      {
+        "name": "Customization_Minimal_Localized_ko-KR.b2container",
+        "sizeBytes": 560861184
+      },
+      {
+        "name": "Customization_Minimal_LoRes.b2container",
+        "sizeBytes": 2691854336
+      },
+      {
+        "name": "Customization_Minimal_Unlocalized.b2container",
+        "sizeBytes": 10989568
+      },
+      {
+        "name": "Customization_WeaponSkins.b2container",
+        "sizeBytes": 211083264
+      },
+      {
+        "name": "Customization_WeaponSkins_HiRes_G1.b2container",
+        "sizeBytes": 271663104
+      },
+      {
+        "name": "Customization_WeaponSkins_LoRes.b2container",
+        "sizeBytes": 8834797568
+      },
+      {
+        "name": "FullMP.b2container",
+        "sizeBytes": 73551872
+      },
+      {
+        "name": "FullMP_HiRes_G2.b2container",
+        "sizeBytes": 4096
+      },
+      {
+        "name": "FullMP_LoRes.b2container",
+        "sizeBytes": 2834432
+      },
+      {
+        "name": "Launch.b2container",
+        "sizeBytes": 5910962176
+      },
+      {
+        "name": "Launch_HiRes_G1.b2container",
+        "sizeBytes": 1315012608
+      },
+      {
+        "name": "Launch_HiRes_G2.b2container",
+        "sizeBytes": 3175952384
+      },
+      {
+        "name": "Launch_Localized_en.b2container",
+        "sizeBytes": 149622784
+      },
+      {
+        "name": "Launch_Localized_ko-KR.b2container",
+        "sizeBytes": 159842304
+      },
+      {
+        "name": "Launch_LoRes.b2container",
+        "sizeBytes": 4627255296
+      },
+      {
+        "name": "Launch_Unlocalized.b2container",
+        "sizeBytes": 121344000
+      },
+      {
+        "name": "MP_Shared.b2container",
+        "sizeBytes": 368447488
+      },
+      {
+        "name": "MP_Shared_HiRes_G1.b2container",
+        "sizeBytes": 19132416
+      },
+      {
+        "name": "MP_Shared_HiRes_G2.b2container",
+        "sizeBytes": 83992576
+      },
+      {
+        "name": "MP_Shared_Localized_en.b2container",
+        "sizeBytes": 27529216
+      },
+      {
+        "name": "MP_Shared_Localized_ko-KR.b2container",
+        "sizeBytes": 30371840
+      },
+      {
+        "name": "MP_Shared_LoRes.b2container",
+        "sizeBytes": 3563978752
+      },
+      {
+        "name": "MP_Shared_Unlocalized.b2container",
+        "sizeBytes": 78516224
+      },
+      {
+        "name": "MP_Uncategorized.b2container",
+        "sizeBytes": 633933824
+      },
+      {
+        "name": "MP_Uncategorized_HiRes_G1.b2container",
+        "sizeBytes": 2449408
+      },
+      {
+        "name": "MP_Uncategorized_HiRes_G2.b2container",
+        "sizeBytes": 175095808
+      },
+      {
+        "name": "MP_Uncategorized_LoRes.b2container",
+        "sizeBytes": 4322279424
+      },
+      {
+        "name": "MP_Uncategorized_Unlocalized.b2container",
+        "sizeBytes": 88391680
+      },
+      {
+        "name": "Overlays.b2container",
+        "sizeBytes": 589824
+      },
+      {
+        "name": "SP_Act1.b2container",
+        "sizeBytes": 3373826048
+      },
+      {
+        "name": "SP_Act1_HiRes_G1.b2container",
+        "sizeBytes": 221138944
+      },
+      {
+        "name": "SP_Act1_HiRes_G2.b2container",
+        "sizeBytes": 1662763008
+      },
+      {
+        "name": "SP_Act1_Localized_en.b2container",
+        "sizeBytes": 15331328
+      },
+      {
+        "name": "SP_Act1_Localized_ko-KR.b2container",
+        "sizeBytes": 14311424
+      },
+      {
+        "name": "SP_Act1_LoRes.b2container",
+        "sizeBytes": 5532475392
+      },
+      {
+        "name": "SP_Act1_Unlocalized.b2container",
+        "sizeBytes": 1419046912
+      },
+      {
+        "name": "SP_Act2.b2container",
+        "sizeBytes": 1514184704
+      },
+      {
+        "name": "SP_Act2_HiRes_G1.b2container",
+        "sizeBytes": 212840448
+      },
+      {
+        "name": "SP_Act2_HiRes_G2.b2container",
+        "sizeBytes": 866349056
+      },
+      {
+        "name": "SP_Act2_Localized_en.b2container",
+        "sizeBytes": 39170048
+      },
+      {
+        "name": "SP_Act2_Localized_ko-KR.b2container",
+        "sizeBytes": 36847616
+      },
+      {
+        "name": "SP_Act2_LoRes.b2container",
+        "sizeBytes": 4303286272
+      },
+      {
+        "name": "SP_Act2_Unlocalized.b2container",
+        "sizeBytes": 1749532672
+      },
+      {
+        "name": "SP_Act3.b2container",
+        "sizeBytes": 1450541056
+      },
+      {
+        "name": "SP_Act3_HiRes_G1.b2container",
+        "sizeBytes": 76017664
+      },
+      {
+        "name": "SP_Act3_HiRes_G2.b2container",
+        "sizeBytes": 1445789696
+      },
+      {
+        "name": "SP_Act3_Localized_en.b2container",
+        "sizeBytes": 34217984
+      },
+      {
+        "name": "SP_Act3_Localized_ko-KR.b2container",
+        "sizeBytes": 32550912
+      },
+      {
+        "name": "SP_Act3_LoRes.b2container",
+        "sizeBytes": 3513532416
+      },
+      {
+        "name": "SP_Act3_Unlocalized.b2container",
+        "sizeBytes": 953679872
+      },
+      {
+        "name": "SP_Act4.b2container",
+        "sizeBytes": 924323840
+      },
+      {
+        "name": "SP_Act4_HiRes_G1.b2container",
+        "sizeBytes": 57253888
+      },
+      {
+        "name": "SP_Act4_HiRes_G2.b2container",
+        "sizeBytes": 1475661824
+      },
+      {
+        "name": "SP_Act4_Localized_en.b2container",
+        "sizeBytes": 10674176
+      },
+      {
+        "name": "SP_Act4_Localized_ko-KR.b2container",
+        "sizeBytes": 9883648
+      },
+      {
+        "name": "SP_Act4_LoRes.b2container",
+        "sizeBytes": 2624028672
+      },
+      {
+        "name": "SP_Act4_Unlocalized.b2container",
+        "sizeBytes": 1057132544
+      },
+      {
+        "name": "SP_HopeA.b2container",
+        "sizeBytes": 255963136
+      },
+      {
+        "name": "SP_HopeA_HiRes_G1.b2container",
+        "sizeBytes": 5427200
+      },
+      {
+        "name": "SP_HopeA_HiRes_G2.b2container",
+        "sizeBytes": 75038720
+      },
+      {
+        "name": "SP_HopeA_Localized_en.b2container",
+        "sizeBytes": 3981312
+      },
+      {
+        "name": "SP_HopeA_Localized_ko-KR.b2container",
+        "sizeBytes": 3698688
+      },
+      {
+        "name": "SP_HopeA_LoRes.b2container",
+        "sizeBytes": 1050632192
+      },
+      {
+        "name": "SP_HopeA_Unlocalized.b2container",
+        "sizeBytes": 229093376
+      },
+      {
+        "name": "SP_MP_Shared.b2container",
+        "sizeBytes": 650711040
+      },
+      {
+        "name": "SP_MP_Shared_HiRes_G1.b2container",
+        "sizeBytes": 52244480
+      },
+      {
+        "name": "SP_MP_Shared_HiRes_G2.b2container",
+        "sizeBytes": 266457088
+      },
+      {
+        "name": "SP_MP_Shared_Localized_en.b2container",
+        "sizeBytes": 118784
+      },
+      {
+        "name": "SP_MP_Shared_Localized_ko-KR.b2container",
+        "sizeBytes": 86016
+      },
+      {
+        "name": "SP_MP_Shared_LoRes.b2container",
+        "sizeBytes": 6797840384
+      },
+      {
+        "name": "SP_MP_Shared_Unlocalized.b2container",
+        "sizeBytes": 68018176
+      },
+      {
+        "name": "SP_Shared.b2container",
+        "sizeBytes": 314515456
+      },
+      {
+        "name": "SP_Shared_HiRes_G1.b2container",
+        "sizeBytes": 5627904
+      },
+      {
+        "name": "SP_Shared_HiRes_G2.b2container",
+        "sizeBytes": 14077952
+      },
+      {
+        "name": "SP_Shared_Localized_en.b2container",
+        "sizeBytes": 20480
+      },
+      {
+        "name": "SP_Shared_Localized_ko-KR.b2container",
+        "sizeBytes": 16384
+      },
+      {
+        "name": "SP_Shared_LoRes.b2container",
+        "sizeBytes": 168964096
+      },
+      {
+        "name": "SP_Shared_Unlocalized.b2container",
+        "sizeBytes": 28049408
+      },
+      {
+        "name": "SP_Uncategorized.b2container",
+        "sizeBytes": 294912
+      },
+      {
+        "name": "SP_Uncategorized_LoRes.b2container",
+        "sizeBytes": 303104
+      },
+      {
+        "name": "Tiles.b2container",
+        "sizeBytes": 499228672
+      },
+      {
+        "name": "Tiles_HiRes_G2.b2container",
+        "sizeBytes": 6946816
+      },
+      {
+        "name": "Tiles_LoRes.b2container",
+        "sizeBytes": 1403957248
+      },
+      {
+        "name": "Tiles_Unlocalized.b2container",
+        "sizeBytes": 167141376
+      },
+      {
+        "name": "Versus_1.b2container",
+        "sizeBytes": 263970816
+      },
+      {
+        "name": "Versus_1_HiRes_G1.b2container",
+        "sizeBytes": 761856
+      },
+      {
+        "name": "Versus_1_HiRes_G2.b2container",
+        "sizeBytes": 134897664
+      },
+      {
+        "name": "Versus_1_LoRes.b2container",
+        "sizeBytes": 998625280
+      },
+      {
+        "name": "Versus_1_Unlocalized.b2container",
+        "sizeBytes": 58146816
+      },
+      {
+        "name": "Versus_2.b2container",
+        "sizeBytes": 109969408
+      },
+      {
+        "name": "Versus_2_HiRes_G1.b2container",
+        "sizeBytes": 1003520
+      },
+      {
+        "name": "Versus_2_HiRes_G2.b2container",
+        "sizeBytes": 44818432
+      },
+      {
+        "name": "Versus_2_Localized_en.b2container",
+        "sizeBytes": 8192
+      },
+      {
+        "name": "Versus_2_Localized_ko-KR.b2container",
+        "sizeBytes": 8192
+      },
+      {
+        "name": "Versus_2_LoRes.b2container",
+        "sizeBytes": 503390208
+      },
+      {
+        "name": "Versus_2_Unlocalized.b2container",
+        "sizeBytes": 15978496
+      },
+      {
+        "name": "Versus_3.b2container",
+        "sizeBytes": 60858368
+      },
+      {
+        "name": "Versus_3_HiRes_G2.b2container",
+        "sizeBytes": 21667840
+      },
+      {
+        "name": "Versus_3_LoRes.b2container",
+        "sizeBytes": 238473216
+      },
+      {
+        "name": "Versus_3_Unlocalized.b2container",
+        "sizeBytes": 15515648
+      },
+      {
+        "name": "Versus_4.b2container",
+        "sizeBytes": 99516416
+      },
+      {
+        "name": "Versus_4_HiRes_G2.b2container",
+        "sizeBytes": 50266112
+      },
+      {
+        "name": "Versus_4_LoRes.b2container",
+        "sizeBytes": 758411264
+      },
+      {
+        "name": "Versus_4_Unlocalized.b2container",
+        "sizeBytes": 25456640
+      },
+      {
+        "name": "Versus_5.b2container",
+        "sizeBytes": 125751296
+      },
+      {
+        "name": "Versus_5_HiRes_G2.b2container",
+        "sizeBytes": 55934976
+      },
+      {
+        "name": "Versus_5_LoRes.b2container",
+        "sizeBytes": 720326656
+      },
+      {
+        "name": "Versus_5_Unlocalized.b2container",
+        "sizeBytes": 15618048
+      },
+      {
+        "name": "Versus_6.b2container",
+        "sizeBytes": 204013568
+      },
+      {
+        "name": "Versus_6_HiRes_G2.b2container",
+        "sizeBytes": 65216512
+      },
+      {
+        "name": "Versus_6_LoRes.b2container",
+        "sizeBytes": 786784256
+      },
+      {
+        "name": "Versus_6_Unlocalized.b2container",
+        "sizeBytes": 18890752
+      },
+      {
+        "name": "Versus_7.b2container",
+        "sizeBytes": 729960448
+      },
+      {
+        "name": "Versus_7_HiRes_G1.b2container",
+        "sizeBytes": 20254720
+      },
+      {
+        "name": "Versus_7_HiRes_G2.b2container",
+        "sizeBytes": 196227072
+      },
+      {
+        "name": "Versus_7_LoRes.b2container",
+        "sizeBytes": 5153632256
+      },
+      {
+        "name": "Versus_7_Unlocalized.b2container",
+        "sizeBytes": 330608640
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "gow5-b2-content-inventory",
+  "revision": 1,
+  "state": "observed",
+  "confidence": "high",
+  "scope": {
+    "game": "gears-5",
+    "platform": "pc-steam-build-10731442",
+    "build": "Steam-10731442",
+    "root": "GearGame/Content/B2"
+  },
+  "claim": "The recorded B2 content root contains one 62,688,696-byte index and 141 B2 containers totaling 120,453,062,656 bytes.",
+  "evidence": [
+    {
+      "kind": "generated-native-inventory",
+      "ref": "evidence/native-inventory/pc-steam-build-10731442/b2-inventory.json",
+      "detail": "Metadata-only inventory produced by tools/inventory_b2.py."
+    }
+  ],
+  "limitations": [
+    "File presence and size do not prove record semantics, runtime necessity, or complete package recovery.",
+    "Container payloads remain outside Git."
+  ]
+}
+

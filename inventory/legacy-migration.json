@@ -1,0 +1,25 @@
+{
+  "schema": "gears5_legacy_fragment_migration_v1",
+  "sourceStatus": "original project tree unavailable; workspace fragments migrated with repository-scope cleanup and destination hashes locked",
+  "items": [
+    {
+      "kind": "legacy-patch-fragment",
+      "destination": "research/legacy-fragments/pc-steam-2019/patch_gow5_gap_mixed_window_tmp.js",
+      "destinationBytes": 12841,
+      "destinationSha256": "70831107c5d45722071ec08505cf35bad5f3a371c02dbe3fbaf230ae95998614"
+    },
+    {
+      "kind": "legacy-patch-fragment",
+      "destination": "research/legacy-fragments/pc-steam-2019/patch_gow5_mixed_interpret_tmp.js",
+      "destinationBytes": 2642,
+      "destinationSha256": "3c15e0d11c86c6a2ef1970ad683c318a2e7c35b8d4a86cd3b16a63f7acfc9907"
+    },
+    {
+      "kind": "legacy-patch-fragment",
+      "destination": "research/legacy-fragments/pc-steam-2019/patch_gow5_mixed_window_db_readme_tmp.js",
+      "destinationBytes": 8017,
+      "destinationSha256": "90842ed33e8329e7e91d94fcafc9599556b7e872bff045a8a7d57d7626241b31"
+    }
+  ]
+}
+

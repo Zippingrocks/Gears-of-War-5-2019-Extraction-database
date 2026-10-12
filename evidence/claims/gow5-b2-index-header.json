@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "gow5-b2-index-header",
+  "revision": 1,
+  "state": "observed",
+  "confidence": "high",
+  "scope": {
+    "game": "gears-5",
+    "platform": "pc-steam-build-10731442",
+    "build": "Steam-10731442",
+    "root": "GearGame/Content/B2",
+    "packages": ["GearGame.b2index"]
+  },
+  "claim": "GearGame.b2index begins with ASCII TCB2 and contains the little-endian unsigned 32-bit value 6 at offset 0x04.",
+  "evidence": [
+    {
+      "kind": "generated-native-inventory",
+      "ref": "evidence/native-inventory/pc-steam-build-10731442/b2-inventory.json",
+      "detail": "The report records a 32-byte header window and offset-based interpretation."
+    }
+  ],
+  "limitations": [
+    "The semantic name of the offset 0x04 field is not yet proven.",
+    "No later header fields or record tables are decoded by this claim."
+  ]
+}
+

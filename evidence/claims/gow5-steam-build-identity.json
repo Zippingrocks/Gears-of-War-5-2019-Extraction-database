@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "gow5-steam-build-identity",
+  "revision": 1,
+  "state": "observed",
+  "confidence": "high",
+  "scope": {
+    "game": "gears-5",
+    "platform": "pc-steam-build-10731442",
+    "build": "Steam-10731442"
+  },
+  "claim": "The recorded Windows source is Steam app 1097840 build 10731442 with Gears5.exe product version 1.1.122.0.",
+  "evidence": [
+    {
+      "kind": "sanitized-native-metadata",
+      "ref": "evidence/native-inventory/pc-steam-build-10731442/build-identity.json",
+      "detail": "Steam manifest and Windows executable-version observations."
+    }
+  ],
+  "limitations": [
+    "The repository does not contain the Steam app manifest or executable.",
+    "Another build must be validated independently."
+  ]
+}
+

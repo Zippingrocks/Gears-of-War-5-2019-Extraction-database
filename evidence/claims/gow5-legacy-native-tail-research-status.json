@@ -1,0 +1,34 @@
+{
+  "$schema": "../../schemas/evidence.schema.json",
+  "id": "gow5-legacy-native-tail-research-status",
+  "revision": 1,
+  "state": "observed",
+  "confidence": "high",
+  "scope": {
+    "game": "gears-5",
+    "platform": "pc-steam-build-10731442",
+    "build": null,
+    "objects": ["girder_wall_01a"]
+  },
+  "claim": "Three surviving patch scripts record prior work on a Gow5B2OodleValidator and mixed StaticMesh native-tail windows, but the target source tree and generated reports are unavailable and the work is not promoted.",
+  "evidence": [
+    {
+      "kind": "legacy-fragment",
+      "ref": "research/legacy-fragments/pc-steam-2019/patch_gow5_gap_mixed_window_tmp.js"
+    },
+    {
+      "kind": "legacy-fragment",
+      "ref": "research/legacy-fragments/pc-steam-2019/patch_gow5_mixed_interpret_tmp.js"
+    },
+    {
+      "kind": "legacy-fragment",
+      "ref": "research/legacy-fragments/pc-steam-2019/patch_gow5_mixed_window_db_readme_tmp.js"
+    }
+  ],
+  "limitations": [
+    "The fragments are patches, not a complete parser.",
+    "Referenced source files, binaries, reports, and hashes cannot currently be revalidated.",
+    "Embedded interpretations remain research leads until regenerated from native source."
+  ]
+}
+

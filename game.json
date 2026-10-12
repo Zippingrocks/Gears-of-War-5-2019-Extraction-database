@@ -1,0 +1,17 @@
+{
+  "$schema": "schemas/game.schema.json",
+  "id": "gears-5",
+  "title": "Gears 5",
+  "repositoryStatus": "research",
+  "engineFamily": "Unreal Engine 4",
+  "platforms": [
+    {
+      "id": "pc-steam-build-10731442",
+      "displayName": "Windows PC Steam",
+      "releaseYear": 2019,
+      "status": "research",
+      "anchorMap": null
+    }
+  ]
+}
+
